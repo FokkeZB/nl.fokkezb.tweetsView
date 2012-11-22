@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="window">
+		<View id="wrapper">
+			<View id="meta">
+				<ImageView id="image" />
+				<Label id="name" />
+				<Label id="user" />
+			</View>
+			<WebView id="text" />
+			<Label id="time" />
+		</View>
+	</Window>
+</Alloy>

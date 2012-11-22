@@ -1,0 +1,50 @@
+'TableViewRow': {
+	bottom: 10,
+	
+	backgroundColor: '#fff'
+},
+
+'Label': {
+	font: {
+		fontSize: 13
+	},
+	
+	backgroundColor: '#fff'
+},
+
+'#image': {
+	top: 10, left: 10,
+	width: 48, height: 48,
+	
+	preventDefaultImage: true,
+	
+	borderRadius: 3,
+	
+	backgrondColor: '#fff'
+},
+
+'#name': {
+	top: 10, right: 10, left: 68,
+	height: 15,
+	
+	font: {
+		fontSize: 13,
+		fontWeight: 'bold'
+	},
+	wordWrap: false,
+	ellipsize: true
+},
+
+'#time': {
+	top: 10, right: 10,
+	width: 60, height: 15,
+	
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	color: '#999'
+},
+
+'#text': {
+	top: 25, right: 10, left: 68,
+	
+	color: '#000'
+}

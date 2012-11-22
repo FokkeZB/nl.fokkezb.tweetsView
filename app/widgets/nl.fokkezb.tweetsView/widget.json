@@ -1,0 +1,13 @@
+{
+	"id": "nl.fokkezb.tweetsView",
+	"name": "nl.fokkezb.tweetsView",
+	"description" : "Widget to implement a table pull-to-refresh header in Titanium Alloy",
+	"author": "",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2012",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"ios"
+}

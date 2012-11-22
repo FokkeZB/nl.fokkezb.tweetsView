@@ -1,0 +1,81 @@
+'Window': {
+	title: 'Tweet',
+	
+	backgroundColor: '#e2e3e4'
+},
+
+'#wrapper': {
+	top: 10, right: 10, left: 10,
+	height: Ti.UI.SIZE,
+	layout: 'vertical',
+	
+	borderRadius: 5,
+	borderSize: 1,
+	borderColor: '#ddd',
+	backgroundColor: '#ffffff',
+},
+
+'#meta': {
+	top: 0, right: 0, left: 0,
+	height: 68,
+	
+	backgroundColor: '#ffffff'
+},
+
+'#name': {
+	top: 10, right: 10, left: 68,
+	height: 24,
+	
+	font: {
+		fontWeight: 'bold',
+		fontSize: 15
+	},
+	
+	backgroundColor: '#ffffff'
+},
+
+'#user': {
+	top: 34, right: 10, left: 68,
+	height: 24,
+	
+	color: '#999',
+	font: {
+		fontSize: 13
+	},
+	
+	backgroundColor: '#ffffff'
+},
+
+'#image': {
+	top: 10, left: 10,
+	width: 48, height: 48,
+	
+	preventDefaultImage: true,
+	
+	borderRadius: 5,
+	
+	backgroundColor: '#ffffff'
+},
+
+'#text': {
+	top: 0, right: 10, left: 10,
+	height: Ti.UI.SIZE,
+	
+	disableBounce: true,
+	enableZoomControls: false,
+	hideLoadIndicator: true,
+	
+	backgroundColor: '#ffffff'
+},
+
+"#time": {
+	top: 10, right: 10, bottom: 10, left: 10,
+	height: 20,
+	
+	color: '#999',
+	font: {
+		fontSize: 13
+	},
+	
+	backgroundColor: '#ffffff'
+}
