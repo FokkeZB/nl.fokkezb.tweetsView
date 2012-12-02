@@ -103,15 +103,7 @@ function doManualRefresh() {
 		return false;
 	}
 	
-	pullController.show();
-	
-	doRefresh(function (success) {
-		pullController.hide();
-		
-		if (success) {
-			pullController.date(new Date());
-		}
-	});
+	pullController.trigger();
 	
 	return true;
 }
@@ -173,7 +165,7 @@ function doLoad(query, callback) {
 						scrollController = Alloy.createWidget('nl.fokkezb.dynamicScrolling');
 						scrollController.init({
 							table: $.tableView,
-							loader: doNext,
+							loader: doNext
 						});
 					}
 				
