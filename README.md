@@ -34,7 +34,7 @@ The *TweetsView* widget provides a twitter-like experience in a view designed to
 
 ```javascript
 	"dependencies": {
-		"nl.fokkezb.dynamicScrolling":"1.0"
+		"nl.fokkezb.tweetsView":"1.0"
 	}
 ```
 
