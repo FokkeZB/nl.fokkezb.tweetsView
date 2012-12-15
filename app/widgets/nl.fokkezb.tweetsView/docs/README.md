@@ -4,6 +4,23 @@
 ## Overview
 The *TweetsView* widget provides a twitter-like experience in a view designed to fill a window (most likely to be contained by a tab) or a splitview, for [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html) - the new MVC for [Titanium](http://www.appcelerator.com/platform) by [Appcelerator](http://www.appcelerator.com).
 
+## Screenshots
+
+### List view
+![List view](https://raw.github.com/FokkeZB/nl.fokkezb.tweetsView/master/app/widgets/nl.fokkezb.tweetsView/docs/screenshot_list.png)
+
+### Pull to refresh
+![Pull to refresh](https://raw.github.com/FokkeZB/nl.fokkezb.tweetsView/master/app/widgets/nl.fokkezb.tweetsView/docs/screenshot_ptr.png)
+
+### Dynamic Scrolling
+![Dynamic Scrolling](https://raw.github.com/FokkeZB/nl.fokkezb.tweetsView/master/app/widgets/nl.fokkezb.tweetsView/docs/screenshot_ds.png)
+
+### Detail view
+![Detail view](https://raw.github.com/FokkeZB/nl.fokkezb.tweetsView/master/app/widgets/nl.fokkezb.tweetsView/docs/screenshot_detail.png)
+
+### Browser view (opening a link in a tweet)
+![Browser view](https://raw.github.com/FokkeZB/nl.fokkezb.tweetsView/master/app/widgets/nl.fokkezb.tweetsView/docs/screenshot_bv.png)
+
 ## Dependencies
 * [PullToRefresh](https://github.com/FokkeZB/nl.fokkezb.pullToRefresh) widget for loading newer tweets.
 * [DynamicScrolling](https://github.com/FokkeZB/nl.fokkezb.dynamicScrolling) widget for loading older tweets.
@@ -15,14 +32,12 @@ The *TweetsView* widget provides a twitter-like experience in a view designed to
 * Manually trigger lazy loading of tweets, e.g. on window open.
 * Loads newer tweets using the [PullToRefresh](https://github.com/FokkeZB/nl.fokkezb.pullToRefresh) widget.
 * Loads older tweets using the [DynamicScrolling](https://github.com/FokkeZB/nl.fokkezb.dynamicScrolling) widget.
-* Tries to open users, hash tags and mentions in the iOS twitter client and falls back to the [BrowserView](https://github.com/FokkeZB/nl.fokkezb.browserView) widget.
+* Tries to open mentions and hash tags in the iOS twitter client and falls back to the [BrowserView](https://github.com/FokkeZB/nl.fokkezb.browserView) widget.
 * Opens links in tweets within the app using the [BrowserView](https://github.com/FokkeZB/nl.fokkezb.browserView) widget.
-* Loads links in tweets 
 * Pass a callback, tab or navigationgroup to open a tweet or link in a new window from any context you're using the view in.
 
 ## Future work
 * Android and Mobile Web compatibility and testing.
-* Find out how to override the view/style from outside the widget.
 * Change the root view to a window ([TC-1534](https://jira.appcelerator.org/browse/TC-1534))
 * Add and test more automatic context (tab, navigationgroup…) support.
 * Supply buttons for tweeting, reply etc.
@@ -35,7 +50,7 @@ The *TweetsView* widget provides a twitter-like experience in a view designed to
 
 ```javascript
 	"dependencies": {
-		"nl.fokkezb.dynamicScrolling":"1.0"
+		"nl.fokkezb.tweetsView":"1.0"
 	}
 ```
 
