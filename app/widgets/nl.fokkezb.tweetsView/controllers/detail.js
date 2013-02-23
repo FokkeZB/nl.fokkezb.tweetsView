@@ -14,7 +14,7 @@ $.user.text = '@' + args.from_user;
 $.text.html = html;
 $.time.text = String.formatDate(date) + ' ' + String.formatTime(date);
 
-$.image.on('click', function (e) {
+$.image.addEventListener('click', function (e) {
 	Ti.App.fireEvent('tweetsView:click', {
 		user: args.from_user
 	});

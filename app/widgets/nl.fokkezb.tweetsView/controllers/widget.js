@@ -1,16 +1,3 @@
-/* TODO:
- * - Bij geen tweets een tablerow met top,right,left,bottom 0 (fullscreen) met info?
- * - Net zoals Twitter detailpagina per tweet met dan tekst in webview clickable
- * - Toch .init verplichten zodat dan parent bekend is en we met rootview en events kunnen spelen
- * - Events firen bij selecteren tweet voor eventuele afhandeling op maat
- * - Parent navgroup, tabgroup herkennen: nav/tab.open || event
- * 	 Is dit wel mogelijk aangezien parent tabgroup tab niet kent?
- *   Dan beter alles laten doen via init: opener: navgroup || tab || win || callback
- * - Parent window, view herkennen: win.open || event
- * - Bovenstaande idee bloggen
- * - Toch username achternaam 
- */
-
 var args = arguments[0] || {};
 
 var options = {
@@ -31,7 +18,7 @@ function doInit(opts) {
 	});
 
 	if (options.opener !== false) {
-		$.tableView.on('click', onTableViewClick);
+		$.tableView.addEventListener('click', onTableViewClick);
 	} else {
 		$.tableView.allowsSelection = false;
 	}
