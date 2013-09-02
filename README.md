@@ -1,4 +1,4 @@
-**WANTED**: Help to make the widget Android and Mobile Web compatible
+**WARNING**: This widget currently doesn't work since Twitter 1.0 API is deprecated and dependent widgets are out of sync.
 
 # TweetsView Widget
 ## Overview
