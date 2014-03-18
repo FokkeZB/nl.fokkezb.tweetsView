@@ -1,6 +1,6 @@
-**WARNING**: This widget currently doesn't work since Twitter 1.0 API is deprecated and dependent widgets are out of sync.
+> **WARNING**: This widget currently doesn't work since Twitter 1.0 API is deprecated and dependent widgets are out of sync.
 
-# TweetsView Widget
+# TweetsView Widget [![Titanium](http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png)](http://www.appcelerator.com/titanium/) [![Alloy](http://www-static.appcelerator.com/badges/alloy-git-badge-sq.png)](http://www.appcelerator.com/alloy/)
 ## Overview
 The *TweetsView* widget provides a twitter-like experience in a view designed to fill a window (most likely to be contained by a tab) or a splitview, for [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html) - the new MVC for [Titanium](http://www.appcelerator.com/platform) by [Appcelerator](http://www.appcelerator.com).
 
